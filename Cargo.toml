@@ -10,3 +10,4 @@ tokio = { version = "1.32.0", features = ["full"] }
 warp = "0.3.5"
 serde = { version = "1", features = ["derive"] }
 async-openai = {path = "./async-openai"}
+backoff = { version = "0.4.0", features = ["tokio"] }
