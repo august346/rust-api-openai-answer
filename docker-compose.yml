@@ -4,7 +4,7 @@ services:
   gpt-openai:
     build:
       context: .
-      dockerfile: Dockerfile2
+      dockerfile: Dockerfile
     restart: always
     ports:
       - "8080:8080"
