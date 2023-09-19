@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  gpt-openai:
+    build:
+      context: .
+      dockerfile: Dockerfile2
+    restart: always
+    ports:
+      - "8080:8080"

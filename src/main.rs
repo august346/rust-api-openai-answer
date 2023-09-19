@@ -123,6 +123,6 @@ async fn main() {
     let routes = answer_route.or(ping_route);
 
     warp::serve(routes)
-        .run(([127, 0, 0, 1], 8080))
+        .run(([0, 0, 0, 0], 8080))
         .await;
 }
